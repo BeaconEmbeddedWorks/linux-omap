@@ -507,7 +507,7 @@
 		};
 
 		mmc1: mmc@4809c000 {
-			compatible = "ti,omap3-hsmmc";
+			compatible = "ti,omap3-sdhci";
 			reg = <0x4809c000 0x200>;
 			interrupts = <83>;
 			ti,hwmods = "mmc1";
@@ -518,7 +518,7 @@
 		};
 
 		mmc2: mmc@480b4000 {
-			compatible = "ti,omap3-hsmmc";
+			compatible = "ti,omap3-sdhci";
 			reg = <0x480b4000 0x200>;
 			interrupts = <86>;
 			ti,hwmods = "mmc2";
@@ -527,7 +527,7 @@
 		};
 
 		mmc3: mmc@480ad000 {
-			compatible = "ti,omap3-hsmmc";
+			compatible = "ti,omap3-sdhci";
 			reg = <0x480ad000 0x200>;
 			interrupts = <94>;
 			ti,hwmods = "mmc3";
