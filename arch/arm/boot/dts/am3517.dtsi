@@ -10,6 +10,7 @@
 /* AM3517 doesn't appear to have the crypto engines defined in omap3.dtsi */
 /delete-node/ &aes1_target;
 /delete-node/ &aes2_target;
+/delete-node/ &sham;
 
 / {
 	aliases {
