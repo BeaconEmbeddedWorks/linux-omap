@@ -16,6 +16,7 @@
 	aliases {
 		serial3 = &uart4;
 		can = &hecc;
+		ethernet = &davinci_emac;
 	};
 
 	cpus {
